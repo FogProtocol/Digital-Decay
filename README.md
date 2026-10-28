@@ -23,7 +23,7 @@
 
 <p align="center">
   <!-- Security & Extension Store Badges -->
-  <a href="https://microsoftedge.microsoft.com/addons/detail/bmjlhndefgpcplihchoncfbgbijonjlc"><img src="https://img.shields.io/badge/Microsoft_Edge-Add--ons_v1.1.0-0078D7?logo=microsoftedge&logoColor=white" alt="Edge Addons" /></a>
+  <a href="https://microsoftedge.microsoft.com/addons/detail/bmjlhndefgpcplihchoncfbgbijonjlc"><img src="https://img.shields.io/badge/Microsoft_Edge-Add--ons_v1.2.0-0078D7?logo=microsoftedge&logoColor=white" alt="Edge Addons" /></a>
   <a href="https://addons.mozilla.org/addon/digital-decay-tool/"><img src="https://img.shields.io/badge/Mozilla_Firefox-Add--ons-FF7139?logo=firefoxbrowser&logoColor=white" alt="Firefox Addons" /></a>
   <img src="https://img.shields.io/badge/Manifest-V3_Compliant-success?logo=googlechrome&logoColor=white" alt="Manifest V3" />
   <img src="https://img.shields.io/badge/Privacy-100%25_On--Device-10b981?logo=shield&logoColor=white" alt="100% On-Device" />
