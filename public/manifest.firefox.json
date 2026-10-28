@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  "name": "Digital Decay",
+  "version": "1.1.0",
+  "description": "Privacy-first extension that cleans local browser data for dormant websites and assists official deletion requests.",
+  "action": {
+    "default_popup": "src/popup/index.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "permissions": [
+    "storage",
+    "alarms",
+    "browsingData",
+    "tabs",
+    "webNavigation",
+    "cookies"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "digital-decay@fogprotocol.org",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    },
+    "gecko_android": {
+      "strict_min_version": "142.0"
+    }
+  }
+}

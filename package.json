@@ -1,0 +1,37 @@
+{
+  "name": "digital-decay",
+  "displayName": "Digital Decay",
+  "version": "1.1.0",
+  "description": "A privacy-first cross-browser extension that cleans local browser data for dormant websites and assists with official account deletion requests.",
+  "author": "FogProtocol (https://github.com/FogProtocol)",
+  "homepage": "https://github.com/FogProtocol/Digital-Decay",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:firefox": "tsc && vite build --mode firefox",
+    "package": "node scripts/package.cjs",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "lucide-react": "^0.475.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "webextension-polyfill": "^0.12.0"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.8",
+    "@types/node": "^22.13.4",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@types/webextension-polyfill": "^0.12.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "adm-zip": "^0.6.1",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0",
+    "vite-plugin-static-copy": "^2.2.0",
+    "vitest": "^3.0.5"
+  }
+}
